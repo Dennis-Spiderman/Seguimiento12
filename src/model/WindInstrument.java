@@ -4,16 +4,16 @@ public class WindInstrument extends Instrument{
 	
 	private String material;
 	
-	public WindInstrument(double height, double length, double width, String material){
-		super(height,length,width);
+	public WindInstrument(double height, double length, double width, String material, String id, int place){
+		super(height,length,width,id,place);
 		this.material=material;
 	}
 	
-	public void setmaterial (String material){
+	public void setMaterial (String material){
 		this.material=material;
 	}
 	
-	public String getmaterial(){
+	public String getMaterial(){
 		return material;
 	}
 }
